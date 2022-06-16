@@ -74,6 +74,11 @@ body {
     align-items: center;
 }
 
+.todo__task_complete .todo__task-text {
+    text-decoration: line-through;
+    color: var(--default);
+}
+
 .todo__task:hover .todo__task-del {
     display: block;
 }
