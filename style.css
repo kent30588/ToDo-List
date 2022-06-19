@@ -34,7 +34,7 @@ body {
 .todo__new {
     --size: 50px;
     display: flex;
-    margin: 16px 0 32px;
+    margin: 16px 0 15px;
 }
 
 .todo__new input {
@@ -130,4 +130,8 @@ body {
     display: none;
     margin-left: auto;
     margin-right: 0;
+}
+
+.todo__tasks-count {
+    margin-bottom: 15px;
 }
